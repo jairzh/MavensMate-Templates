@@ -1,3 +1,7 @@
-public class {{ api_name }} {
+/*
+ *
+ */
+public class {{ api_name }}
+{
 
 }
