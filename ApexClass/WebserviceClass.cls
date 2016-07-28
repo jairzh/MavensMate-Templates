@@ -1,3 +1,6 @@
+/**
+ *
+ */
 global class {{ api_name }}
 {
     webservice String parameter { get; set; }

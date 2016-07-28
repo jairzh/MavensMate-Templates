@@ -1,27 +1,28 @@
+/**
+ *
+ */
 @RestResource(urlMapping='/{{ url }}')
-global with sharing class {{ api_name }}  {
-
+global with sharing class {{ api_name }}
+{
     @HttpGet
-    global static {{ object_name }} show() {
-
+    global static {{ object_name }} doGet()
+    {
         {{ object_name }} obj;
 
         return obj;
-
     }
 
     @HttpPost
-    global static {{ object_name }} create() {
-
+    global static {{ object_name }} doPost()
+    {
         {{ object_name }} obj;
 
         return obj;
-
     }
 
     @HttpPut
-    global static {{ object_name }} updateObject() {
-
+    global static {{ object_name }} doPut()
+    {
         {{ object_name }} obj;
 
         return obj;
@@ -29,8 +30,8 @@ global with sharing class {{ api_name }}  {
     }
 
     @HttpDelete
-    global static void remove() {
+    global static void doDelete
+    {
 
     }
-
 }

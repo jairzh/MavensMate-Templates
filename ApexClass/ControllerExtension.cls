@@ -1,3 +1,6 @@
+/**
+ *
+ */
 public with sharing class {{ api_name }}
 {
     private final sObject mysObject;

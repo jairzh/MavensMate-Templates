@@ -1,3 +1,6 @@
+/**
+ *
+ */
 @isTest
 private class {{ api_name }}
 {
@@ -12,5 +15,4 @@ private class {{ api_name }}
     {
         // Implement test code
     }
-
 }

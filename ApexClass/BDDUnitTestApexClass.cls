@@ -1,8 +1,11 @@
+/**
+ *
+ */
 @isTest
 private class {{ api_name }}
 {
 	@isTest
-	static void itShould()
+	static void test
 	{
 		// Given
 
@@ -11,6 +14,5 @@ private class {{ api_name }}
 
 
 		// Then
-
 	}
 }

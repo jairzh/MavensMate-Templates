@@ -1,4 +1,4 @@
-/*
+/**
  *
  */
 public with sharing class {{ api_name }}

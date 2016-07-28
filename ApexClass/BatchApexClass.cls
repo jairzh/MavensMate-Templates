@@ -1,4 +1,4 @@
-/*
+/**
  *
  */
 global class {{ api_name }} implements Database.Batchable<sObject>

@@ -1,7 +1,10 @@
+/**
+ *
+ */
 public class {{ api_name }}
 {
     /**
-     *   Enum representing each of before/after CRUD events on Sobjects
+     * Enum representing each of before/after CRUD events on Sobjects
      */
     public enum Evt
     {
@@ -9,9 +12,9 @@ public class {{ api_name }}
         afterupdate, beforedelete, beforeinsert, beforeupdate
     }
 
-    /*
-     *   Simplistic handler to implement on any of the event. It doesn't require or enforces any pattern except the
-     *   method name to be "handle()".
+    /**
+     *  Simplistic handler to implement on any of the event. It doesn't require or enforces any pattern except the
+     *  method name to be "handle()".
      */
     public interface HandlerInterface
     {
